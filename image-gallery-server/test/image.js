@@ -2,10 +2,7 @@ let chai = require('chai');
 let chaiHttp = require('chai-http');
 let server = require('../app')
 
-//Assertion Style
-
 chai.should();
-
 chai.use(chaiHttp);
 
 describe('Image API', () => {
@@ -23,6 +20,9 @@ describe('Image API', () => {
                 })
         })
 
+        /**
+     * Test Get images with wrong path
+     */
         it('It should not GET all the images', (done) => {
             chai.request(server)
                 .get('/api/image')
@@ -36,7 +36,6 @@ describe('Image API', () => {
     /**
      * Test Get images by tag 
      */
-
     it('should get all the images of specific tag', (done) => {
         const imageTag = "dogs";
         chai.request(server)
@@ -47,6 +46,4 @@ describe('Image API', () => {
                 done();
             })
     })
-
-
 })
