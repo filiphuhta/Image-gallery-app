@@ -10,22 +10,20 @@
 
 ## Getting Started
 
-Before getting started:
-
-Enter your API key and secret in `app.js`
+1. Enter your API key and secret in `app.js`
    ```JS
     api_key = 'XXXXXX';
     secret = 'XXXXXX';
 
    ```
 
-1. Check that you have node version v14.16.0.
+2. Check that you have node version v14.16.0.
 
-2. run -npm install (You could need to delete package-lock.json before doing this command to get it to work)
+3. run -npm install (You could need to delete package-lock.json before doing this command to get it to work)
 
-3. run -npm test (To test that the api works)
+4. run -npm test (To test that the api works)
 
-4. run -npm start (To start the project to start making api calls)
+5. run -npm start (To start the project to start making api calls)
 
 ## Usage
 
