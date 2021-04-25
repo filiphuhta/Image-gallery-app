@@ -13,15 +13,9 @@
     text-align: center;
     background: lightslategray;
     color: pink;
-    
   }
 
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
+ /* style input with type text */
   input[type=text] {
     padding:10px;
     border-radius:10px;
@@ -30,16 +24,14 @@
   }
 
   button {
-  /* remove default behavior */
+  /* remove default appearance of the button */
   appearance:none;
   -webkit-appearance:none;
 
-  /* usual styles */
   padding:10px;
   border:none;
   background-color: pink;
   color:white;
-  font-weight:600;
   border-radius:5px;
   }
 
@@ -59,8 +51,6 @@
     font-style: italic;
   }
   
-  /* Set background for page content */
-  
   /* Float four columns side by side with an padding of 20px */
   .column {
     width: 25%;
@@ -73,21 +63,13 @@
       padding: 100px;
   }
   
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
   /* Make images fit the full size of the div with the card class  (No support for IE 11)*/
   img {
     width:100%;
     height:100%;
     object-fit: cover;
 }
-  
+
   /* Styling for the cards */
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
@@ -95,10 +77,8 @@
     text-align: center;
     background-color: whitesmoke;
   }
-  
 
-
-  /*  Make one column layout  on screens smaller than 600px; */
+  /*  Make two column layout  on screens up to than 1200px; */
   @media screen and (max-width: 1200px) {
     .column {
       width: 50%;
@@ -117,8 +97,7 @@
     }
   }
 
-
-    /*  Make one column layout  on screens smaller than 600px; */
+    /*  Make one column layout  on screens up to than 600px; */
     @media screen and (max-width: 600px) {
         .column {
           width: 100%;
@@ -154,7 +133,7 @@
       }
   }
 
-
+/*  Make two column layout  on IPads etc; */
   @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
     .column {
         width: 50%;
