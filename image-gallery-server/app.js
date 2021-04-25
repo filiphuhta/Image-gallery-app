@@ -34,7 +34,7 @@ app.get("/api/images" , (request, response) => {
 
 
 
-//GET Images BY tag
+//GET Images BY tag (This is CORS-enabled for all origins)
 
 app.get("/api/images/:tag" , (request, response) => {
 
