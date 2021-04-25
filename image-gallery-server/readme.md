@@ -8,7 +8,6 @@
 * [Superagent](https://github.com/visionmedia/superagent)
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
 1. Check that you have node version v14.16.0.
 
