@@ -9,7 +9,7 @@
 
 ## Getting Started
 
-1. Start imageGallery application with -npm start
+1. Start imageGallery server with -npm start 
 2. open index.html 
 2. Your all set start making requests 
 
