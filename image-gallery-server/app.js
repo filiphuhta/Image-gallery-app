@@ -9,8 +9,8 @@ app.use(express.json());
 
 var options = {
     method: 'flickr.photos.search',
-    api_key: '776719dc683b09120b87c9887f8e1e73',
-    secret: 'cf03487a25b2535e',
+    api_key: 'XXXXXXX',
+    secret: 'XXXXX',
     tags: 'cat',
     format: 'json',
     nojsoncallback: 1,
