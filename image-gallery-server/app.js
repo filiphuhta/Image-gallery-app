@@ -20,11 +20,9 @@ app.get("/api/images", (request, response) => {
     superagent.get('https://www.flickr.com/services/rest')
         .query(options)
         .end((err, res) => {
-
             if (res.body) {
                 response.status(200).send(res.body);
             }
-
             if (err) { return console.log(err); }
             console.log(res.body);
         });
