@@ -48,6 +48,7 @@ function searchImages() {
 
 function addListnerOnEnter() {
     var input = document.getElementById("search-field");
+    // Deprecated should not be used but i did this time :)
     input.addEventListener('keyup', (e) => {
         if (e.keyCode === 13) {
             e.preventDefault();
@@ -82,5 +83,4 @@ function appendFlickrImages(serverId, id, secret, title) {
     imgElement.setAttribute("class", "img")
     imgElement.setAttribute("alt", image.title);
     card.appendChild(imgElement);
-    // item.querySelector('.img').appendChild('<img class="img" alt="cat" src="https://live.staticflickr.com/' + serverId + '/' + id + '_' + secret + '_w.jpg"/>');
 }
