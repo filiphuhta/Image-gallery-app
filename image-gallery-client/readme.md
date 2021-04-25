@@ -6,7 +6,7 @@
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
 
-<!-- GETTING STARTED -->
+
 ## Getting Started
 
 1. Start imageGallery application with -npm start
