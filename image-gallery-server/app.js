@@ -9,7 +9,7 @@ app.use(express.json());
 
 var options = {
     method: 'flickr.photos.search',
-    api_key: 'XXXXXXX',
+    api_key: 'XXXXXX',
     secret: 'XXXXX',
     tags: 'cat',
     format: 'json',
