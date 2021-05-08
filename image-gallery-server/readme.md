@@ -14,7 +14,7 @@
    ```JS
     api_key = 'XXXXXX';
     secret = 'XXXXXX';
-
+    
 2. Check that you have node version v14.16.0.
 
 3. run -npm install (You could need to delete package-lock.json before doing this command to get it to work)
